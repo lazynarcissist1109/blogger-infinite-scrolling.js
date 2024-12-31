@@ -1,8 +1,8 @@
 (function($) {
 var loadingGif = 'https://lh3.googleusercontent.com/-FiCzyOK4Mew/T4aAj2uVJKI/AAAAAAAAPaY/x23tjGIH7ls/s32/ajax-loader.gif';
-var olderPostsLink = 'a.blog-pager-older-link';
+var olderPostsLink = '';
 var loadMoreDiv = null;
-var postContainerSelector = '.articleCols.container';
+var postContainerSelector = 'div.blog-posts';
 var loading = false;
 
 var win = $(window);
